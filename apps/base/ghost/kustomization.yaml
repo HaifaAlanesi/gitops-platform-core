@@ -4,3 +4,4 @@ resources:
   - namespace.yaml
   - mysql-pvc.yaml
   - mysql.yaml
+  - ghost.yaml
