@@ -30,7 +30,7 @@ spec:
         name: ghost
         env:
         - name: url
-          value: http://localhost:2368 # We will change this to your actual domain name later!
+          value: http://ghost.haifa.work # e this is myr actual domain 
         - name: database__client
           value: mysql
         - name: database__connection__host
