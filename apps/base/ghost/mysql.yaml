@@ -16,6 +16,7 @@ metadata:
   name: mysql
   namespace: ghost
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: mysql
