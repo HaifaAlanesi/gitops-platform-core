@@ -39,7 +39,11 @@ spec:
         - name: database__connection__user
           value: root
         - name: database__connection__password
-          value: supersecretpassword
+          valueFrom:
+            secretKeyRef:
+              name: mysql-pass
+              key: password
+        
         - name: database__connection__database
           value: ghost
         ports:
