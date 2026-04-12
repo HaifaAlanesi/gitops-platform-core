@@ -30,7 +30,7 @@ spec:
         name: mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: "supersecretpassword" # We will upgrade this to a real sealed secret later!
+          value: "12345678" # We will upgrade this to a real sealed secret later!
         - name: MYSQL_DATABASE
           value: "ghost"
         ports:
